@@ -4,9 +4,9 @@
   "description": "backend for video streaming application",
   "license": "ISC",
   "author": "mohid shaik",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   }
 }
